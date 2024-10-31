@@ -1,8 +1,6 @@
 // next.config.mjs
 const nextConfig = {
   reactStrictMode: true,
-  distDir: 'functions/.next',
-  output: "standalone",
   images: {
     domains: [
       'firebasestorage.googleapis.com',
