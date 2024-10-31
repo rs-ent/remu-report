@@ -132,10 +132,14 @@ a:hover::after {
     background: var(--color-primary-dark);
 }
 
-@layer base {
+@layer components {
     /* 프라이머리 버튼 스타일 */
     .btn-primary {
-        @apply bg-primary text-white hover:bg-primary-dark transition-all duration-300 ease-in-out;
+        @apply bg-primary text-white transition-all duration-300 ease-in-out;
+    }
+
+    .btn-primary:hover {
+        background-color: var(--color-primary-dark);
     }
 
     .dark .btn-primary {

@@ -1,0 +1,10 @@
+{
+  "/page": "/",
+  "/favicon.ico/route": "/favicon.ico",
+  "/create/page": "/create",
+  "/report/[artist_eng]/page": "/report/[artist_eng]",
+  "/report/[artist_eng]/macro/page": "/report/[artist_eng]/macro",
+  "/report/[artist_eng]/micro/page": "/report/[artist_eng]/micro",
+  "/report/[artist_eng]/point/page": "/report/[artist_eng]/point",
+  "/report/[artist_eng]/meso/page": "/report/[artist_eng]/meso"
+}

@@ -1,0 +1,10 @@
+{
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/create/page": "app/create/page.js",
+  "/report/[artist_eng]/page": "app/report/[artist_eng]/page.js",
+  "/report/[artist_eng]/macro/page": "app/report/[artist_eng]/macro/page.js",
+  "/report/[artist_eng]/micro/page": "app/report/[artist_eng]/micro/page.js",
+  "/report/[artist_eng]/point/page": "app/report/[artist_eng]/point/page.js",
+  "/report/[artist_eng]/meso/page": "app/report/[artist_eng]/meso/page.js"
+}
