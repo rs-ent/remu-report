@@ -1,0 +1,75 @@
+/* src/components/macro/MarketGrowthDetailChart.css */
+
+.chart-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+svg {
+    display: block;
+}
+
+.axis path,
+.axis line {
+    stroke: #ccc;
+}
+
+.axis text {
+    font-family: 'Pretendard', sans-serif;
+    font-size: 12px;
+    fill: #666;
+}
+
+.grid line {
+    stroke: #e0e0e0;
+}
+
+.chart-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    fill: #333;
+    text-anchor: middle;
+}
+
+.legend-text {
+    font-family: 'Pretendard', sans-serif;
+    font-size: 12px;
+    fill: #333;
+}
+
+.chart-tooltip {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 4px;
+    pointer-events: none;
+    font-family: 'Pretendard', sans-serif;
+    font-size: 12px;
+    color: #333;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.chart-tooltip strong {
+    font-weight: bold;
+}
+
+/* 추가 스타일링 */
+
+.legend {
+    font-family: 'Pretendard', sans-serif;
+    font-size: 12px;
+    fill: #333;
+}
+
+.legend rect {
+    stroke: #ccc;
+    stroke-width: 1px;
+}
+
+.legend text {
+    font-family: 'Pretendard', sans-serif;
+    font-size: 12px;
+    fill: #333;
+}

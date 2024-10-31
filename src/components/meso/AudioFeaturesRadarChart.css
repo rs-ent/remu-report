@@ -1,0 +1,56 @@
+/* src/components/meso/AudioFeaturesRadarChart.css */
+
+.radar-chart {
+  background: transparent;
+}
+
+.grid-line {
+  stroke: #e0e0e0;
+  stroke-opacity: 0.7;
+}
+
+.axis-line {
+  stroke: #cdcdcd;
+  stroke-width: 2;
+}
+
+.axis-label {
+  font-family: 'Pretendard', sans-serif;
+  font-size: 12px;
+  fill: #737373;
+}
+
+.radar-area {
+  transition: all 0.3s ease;
+}
+
+.radar-circle {
+  transition: all 0.3s ease;
+}
+
+.legend rect {
+  stroke-width: 2;
+}
+
+.legend text {
+  font-family: 'Pretendard', sans-serif;
+  font-size: 12px;
+  fill: #737373;
+}
+
+.radar-tooltip {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-radius: 4px;
+  pointer-events: none;
+  font-family: 'Pretendard', sans-serif;
+  font-size: 12px;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.radar-tooltip strong {
+  font-weight: bold;
+}
