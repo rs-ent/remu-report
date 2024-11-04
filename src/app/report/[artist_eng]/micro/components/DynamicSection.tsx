@@ -2,14 +2,14 @@
 'use client'
 
 import React from 'react';
-import TextSection from './sections/TextSection';
-import HeroSection from './sections/HeroSection';
-import CombinedSection from './sections/CombinedSection';
-import VideoSection from './sections/VideoSection';
-import TableSection from './sections/TableSection';
-import NewsSection from './sections/NewsSection';
-import ChartSection from './sections/ChartSection'; // 차트 섹션 임포트
-import Divider from './sections/Divider'; // 구분선 섹션 임포트
+import TextSection from './HistorySections/TextSection';
+import HeroSection from './HistorySections/HeroSection';
+import CombinedSection from './HistorySections/CombinedSection';
+import VideoSection from './HistorySections/VideoSection';
+import TableSection from './HistorySections/TableSection';
+import NewsSection from './HistorySections/NewsSection';
+import ChartSection from './HistorySections/ChartSection'; // 차트 섹션 임포트
+import Divider from './HistorySections/Divider'; // 구분선 섹션 임포트
 
 import { SectionData } from '@/utils/fetchReport';
 

@@ -1,0 +1,6 @@
+/* src/components/WordCloudChart.css */
+
+text {
+    cursor: pointer;
+    transition: fill 0.3s ease;
+  }

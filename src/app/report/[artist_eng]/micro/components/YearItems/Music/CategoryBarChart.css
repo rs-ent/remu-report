@@ -1,0 +1,13 @@
+/* src/components/CategoryBarChart.css */
+
+.bar {
+  transition: fill 0.3s ease;
+}
+
+.tooltip-bar-chart {
+  font-size: 12px;
+  color: #333;
+  pointer-events: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.9);
+}

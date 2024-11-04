@@ -107,8 +107,6 @@ const ReportPage: React.FC = () => {
             )}
             <Divider opacity={0.3} marginTop="5rem" marginBottom="5rem" color="blue-500" />
             <Micro />
-            <Divider opacity={0.3} marginTop="5rem" marginBottom="5rem" color="blue-500" />
-            <Point />
           </div>
         ) : (
           <ErrorMessage message="잘못된 URL" />
@@ -119,3 +117,7 @@ const ReportPage: React.FC = () => {
 };
 
 export default ReportPage;
+
+/*
+
+*/

@@ -1,0 +1,26 @@
+/* src/components/micro/PieChart.css */
+
+.pie-chart-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+path:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+text {
+  font-size: 14px;
+  fill: #333;
+}
+
+polyline {
+  opacity: 0.3;
+}
